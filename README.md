@@ -1,37 +1,60 @@
 # Hibba — Frontend Developer Portfolio
 
-A modern, responsive, and minimalist personal portfolio website built with Next.js, React, and Tailwind CSS.
+> Personal portfolio showcasing my frontend development, web applications, and practical AI-powered projects.
 
-## Features
-- **Clean Aesthetic:** Modern typography, off-white/light background with refined emerald green accents and rounded cards.
-- **Hero:** Clear "Hi, I'm Hibba" positioning as **Frontend Developer** with dual CTAs and live social links.
-- **About:** Story of building real-world web apps and integrating practical AI/ML solutions.
-- **Skills:** 4 verified skill domains (Frontend & Web, Programming & Data, Machine Learning, Tools & Platforms).
-- **Selected Projects:** Showcase cards with features, impact, and direct links for ATS Resume Score Checker, CareerPath, Email Spam Classifier, and Ad Sales Predictor.
-- **Experience:** Internship experience at Devonsite and Arch Technologies plus university leadership.
-- **Services:** Frontend development, web applications, AI-powered web experiences, and deployment.
-- **Contact:** Verified email (`hibbachwali05@gmail.com`), GitHub, LinkedIn, one-click email copy, and message form.
+🌐 **Live Demo:** [https://hibba-portfolio-two.vercel.app/](https://hibba-portfolio-two.vercel.app/)  
+📦 **Repository:** [https://github.com/hibbawali/Hibba-portfolio](https://github.com/hibbawali/Hibba-portfolio)
+
+---
+
+## Overview
+
+A modern, responsive, and minimalist personal portfolio website built with **Next.js (App Router)**, **React**, and **Tailwind CSS**, styled with **Outfit** and **Plus Jakarta Sans** typography and refined emerald green accents.
+
+## Key Highlights
+
+- **Hero & Identity:** Clear "Hi, I'm Hibba" positioning as a **Frontend Developer** with dual CTAs (*View My Work* & *Download CV*).
+- **About:** Journey from initial concept to deployment, featuring 4 core impact metrics.
+- **Skills:** Categorized into Frontend & Web, Programming & Data, Machine Learning, and Tools & Platforms.
+- **Featured Projects:**
+  - **ATS Resume Score Checker** — Next.js, API routes, document parsing.
+  - **CareerPath (Scholarship Finder)** — Full-stack hackathon release shipped in 48h.
+  - **Email Spam Classifier** — 97.1% accuracy model with Naive Bayes & TF-IDF vectorization.
+  - **Ad Sales Predictor** — Interactive polynomial regression deployed on Streamlit.
+- **Experience:** Internship engineering at Devonsite & Arch Technologies + university leadership.
+- **Services:** Frontend development, web applications, AI-powered web experiences, and production deployment.
+- **Contact:** One-click copy email (`hibbachwali05@gmail.com`), GitHub, LinkedIn, and direct inquiry form.
 
 ## Tech Stack
-- **Framework:** Next.js (App Router)
-- **UI & Styling:** React 18, Tailwind CSS, Lucide React icons
+
+- **Framework:** Next.js 14 (App Router)
+- **UI & Components:** React 18, Lucide React icons
+- **Styling:** Tailwind CSS (Custom color system with soft off-white & emerald accents)
+- **Typography:** Outfit (Display/Headings) & Plus Jakarta Sans (Body/UI)
 - **Deployment:** Vercel
 
 ## Running Locally
 
-1. Install dependencies:
+1. Clone repository:
+```bash
+git clone https://github.com/hibbawali/Hibba-portfolio.git
+cd Hibba-portfolio
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Start the development server:
+3. Start development server:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Building for Production
+## Production Build
+
 ```bash
 npm run build
 npm run start
